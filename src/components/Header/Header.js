@@ -25,7 +25,7 @@ const Header = () => {
                                 (<Nav.Link as={Link} to="/login">Login</Nav.Link>)
                             }
                             <Navbar.Text>
-                                Signed as: {user.displayName}
+                                Signed as: {user?.displayName || user?.email?.slice(0, 5)}
                             </Navbar.Text>
                         </Navbar.Collapse>
                     </Container>

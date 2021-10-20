@@ -1,7 +1,7 @@
-import { createUserWithEmailAndPassword, getAuth, sendEmailVerification } from '@firebase/auth';
+import { createUserWithEmailAndPassword, getAuth } from '@firebase/auth';
 import React, { useState } from 'react';
 import { Button, FloatingLabel, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import initializeAuthentication from '../Firebase/firebase,init';
 import useAuth from '../hooks/useAuth';
 
@@ -12,6 +12,7 @@ const Register = () => {
     const [user, setUser] = useState({});
     const [err, setErr] = useState('');
     const auth = getAuth();
+    const history = useHistory();
 
     const handleEmailChange = e => {
         setEmail(e.target.value);
@@ -28,19 +29,18 @@ const Register = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setUser(result.user);
+                console.log(result.user);
+                history.push('/home');
+
             })
             .catch(err => setErr(err.message));
 
     }
-    const verifyEmail = email => {
-        sendEmailVerification(auth, email).then(() => {
 
-        });
-    }
     return (
         <div className="w-75 mx-auto mt-5">
             <h2 className="text-center text-info">Register: Create An Account</h2>
-            <form onSubmit={handleRegiter}>
+            <form>
                 <FloatingLabel
                     controlId="floatingInput"
                     label="Email address"
@@ -51,10 +51,14 @@ const Register = () => {
                 <FloatingLabel controlId="floatingPassword" label="Password">
                     <Form.Control onBlur={handlePasswordChange} type="password" placeholder="Password" required />
                 </FloatingLabel>
+                <div class="input-group mt-3">
+                    <span class="input-group-text" id="basic-addon1">Name</span>
+                    <input type="text" class="form-control" placeholder="name" aria-label="Username" aria-describedby="basic-addon1" />
+                </div>
                 <div className="text-danger">
                     {err}
                 </div>
-                <Button className="mt-2 mb-2" variant="primary" type="submit">
+                <Button onClick={handleRegiter} className="mt-2 mb-2" variant="primary" type="submit">
                     Register
                 </Button>
             </form>

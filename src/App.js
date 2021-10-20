@@ -12,6 +12,7 @@ import Booking from './components/Booking/Booking';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
 
 initializeAuthentication();
 
@@ -43,8 +44,11 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            <Route path="/blog">
+            <PrivateRoute path="/blog">
               <Blog></Blog>
+            </PrivateRoute>
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer />

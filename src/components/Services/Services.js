@@ -6,18 +6,18 @@ import Doctors from './Doctors/Doctors';
 const Services = () => {
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
-        fetch('/doctors.json')
+        fetch('./doctors.json')
             .then(res => res.json())
             .then(data => setDoctors(data))
     }, []);
     const element = <FontAwesomeIcon icon={faUsers} />
     return (
         <>
-            <div id="services" className="container">
+            <div id="services" className="container text-md-center text-sm-center">
                 <p className="fs-4 text-secondary text-center mt-5">QUICK FACTS ABOUT OUR HOSPITAL</p>
                 <h3 className="text-center text-primary mb-5">See what we provide for your health</h3>
                 <div className="row mt-2">
-                    <div className="col-lg-4 text-info p-2">
+                    <div className="col-lg-4 text-info p-2 ">
                         <h3>{element} <span className="text-dark">Specialist Doctors</span></h3>
                     </div>
                     <div className="col-lg-4 text-info p-2">
