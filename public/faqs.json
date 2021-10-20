@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "que": "Is Medcorder HIPAA compliant?",
+        "ans": "The app is patient-directed and does not receive electronic medical information from a Covered Provider and is therefore not covered by HIPAA. Medcorder protects personal health information (PHI) and is fully compliant with FDA and FTC regulations on patient recordings of consults."
+    },
+    {
+        "id": 2,
+        "que": "Is recording legal?",
+        "ans": "It is legal to request permission to record everywhere in the US.We recommend obtaining consent from your doctor before recording. Consent from all parties is legally required in 11 out of 50 states."
+    },
+    {
+        "id": 3,
+        "que": "What if there are signs saying recording isn’t allowed?",
+        "ans": "Those signs are to keep you from recording other patients. There’s nothing wrong with asking your doctor if it’s okay to record your consult."
+    },
+    {
+        "id": 4,
+        "que": "Where should I place my phone during recording?",
+        "ans": "Place your phone on a hard flat surface near the doctor, such as their desk, to get the best recording and transcription quality."
+    },
+    {
+        "id": 5,
+        "que": "What’s the best way to ask my doctor for consent to record?",
+        "ans": "Before you start recording, explain to your doctor that you want to be sure to remember and understand everything they are saying and will want to review it with family to make the most of your time together."
+    },
+    {
+        "id": 6,
+        "que": "What happens if the doctor says no?",
+        "ans": "You can invite your doctor to visit our For Providers page as well as our blog for more information on the benefits of recording for both you and them. If your doctor declines to consent, you can ask permission to record a summary of the visit at the end of the consultation. "
+    },
+    {
+        "id": 7,
+        "que": "Does recording present extra liability for doctors?",
+        "ans": "Several studies involving legal review of doctor-patient consults found no additional malpractice liability incurred by the allowance of patients to record. Many doctors have found that systematically recording consults has significantly lowered their annual malpractice premiums."
+    },
+    {
+        "id": 8,
+        "que": "How can my doctor learn more about Medcorder?",
+        "ans": "You can send your doctor to the provider's page we have set up just for them. We also have several articles on our blog that will help educate them on the benefits of using the app for doctors and patients."
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Logan",
+        "dept": "Physical Therapy",
+        "adress": "795 Folsom Ave, Suite 600 San Francisco, CADGE 94107",
+        "img": "https://i.ibb.co/1rctJYJ/doctors.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Sophie",
+        "dept": "Gynecologist",
+        "adress": "4109 Pearl Street,North Highlands,California",
+        "img": "https://i.ibb.co/Rb7D2LQ/doctors-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Liam",
+        "dept": "Dentist",
+        "adress": "1071 Thunder Road,San Carlos,California",
+        "img": "https://i.ibb.co/KLh1qT9/doctors-2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Noah",
+        "dept": "Nursing",
+        "adress": "684 Pine Tree Lane,NORTH PROVIDENCE,Rhode Island",
+        "img": "https://i.ibb.co/wMzgLFh/doctors-3.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Emma",
+        "dept": "Audiology",
+        "adress": "2190 Grim Avenue,San Diego,California",
+        "img": "https://i.ibb.co/NtBy69f/doctors-4.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dr. James",
+        "dept": "Physical Therapy",
+        "adress": "3323 Quilly Lane,DALLAS,Texas",
+        "img": "https://i.ibb.co/M1DHssn/doctors-5.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dr. Olivia",
+        "dept": "Dentist",
+        "adress": "4475 Abia Martin Drive,Bethpage,Bethpage",
+        "img": "https://i.ibb.co/S73ypr3/doctors-6.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Dr. Benjamin",
+        "dept": "Nursing",
+        "adress": "3065 Tibbs Avenue,Stockett Sand Coulee,Montana",
+        "img": "https://i.ibb.co/tsPh45J/doctors-8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Dr. Logan",
+        "dept": "Physical Therapy",
+        "adress": "1507 Westwood Avenue,Deerpark,New York",
+        "img": "https://i.ibb.co/GQsLy30/doctors-9.jpg"
+    }
+]
